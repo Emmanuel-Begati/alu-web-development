@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-image: url("./imgs/banner.png");
+    padding: 2% 5% 2% 5%;
+    filter: grayscale(100%);
+    position: absolute;
+    left: -0.025%;
+    right: -0.025%;
+    top: 0%;
+    bottom: -26.48%;
+}
+
+#header-logo{
+    flex: 2;
+    z-index: 1;
+    margin-left: 50px;
+}
+
+header .nav-bar{
+flex: 4;
+z-index: 1;
+font-weight: 700;
+font-size: 15px;
+line-height: 15px;
+display: flex;
+justify-content:space-evenly;
+}
+
+header .nav-bar a{
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration:none;
+    color:aliceblue;
+    padding: auto;
+    margin-left: 20px;
+}
+
