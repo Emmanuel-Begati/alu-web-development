@@ -1,9 +1,8 @@
-body{
-    font-family: sans-serif
-}
-
-
-header{
+body {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+  }
+  header {
     display: flex;
     flex-direction: row;
     flex: auto;
@@ -14,31 +13,89 @@ header{
     left: -0.025%;
     right: -0.025%;
     top: 0%;
-    bottom: -26.48%;
-}
-
-#header-logo{
+    bottom: -25%;
+  }
+  
+  header .logo {
     flex: 2;
     z-index: 1;
-    margin-left: 50px;
-}
-
-header .nav-bar{
-flex: 4;
-z-index: 1;
-font-weight: 700;
-font-size: 15px;
-line-height: 15px;
-display: flex;
-justify-content:space-evenly;
-}
-
-header .nav-bar a{
-    margin-left: 1%;
-    margin-right: 1%;
-    text-decoration:none;
-    color:aliceblue;
-    padding: auto;
-    margin-left: 20px;
-}
-
+  }
+  
+  header .navbar {
+    flex: 4;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  header .navbar a {
+    margin-left: -30%;
+    margin-right: -30%;
+    text-decoration: none;
+    color: white;
+    
+  }
+  .header-section {
+    position: relative;
+    /* left: 20%;
+    right: 20%; */
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin-bottom: -2.6rem;
+    background-blend-mode: color;
+    background: rgba(0, 0, 0, 1);
+    background: radial-gradient(
+      85.9% 85.9% at 50% 14.1%,
+      rgba(41, 48, 61, 0.0001) 0%,
+      #071629 100%
+    );
+    color: white;
+    
+    
+  }
+  .schooled {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+  .schooled-title {
+    height: 151px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .schooled-text {
+    height: 20px;
+    position: relative;
+    margin-top: -7%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 38%;
+    margin-right: 38%;
+  }
+  .register-btn {
+    background: #c271ff;
+    border-radius: 25px;
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    align-self: center;
+    margin: 2rem;
+    padding: 1rem;}
