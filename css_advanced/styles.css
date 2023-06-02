@@ -172,12 +172,14 @@ body {
         font-size: 22px;
         line-height: 34px;
         margin-left: 0;
+        
       }
       .presenter-block .person-name {
         font-weight: 700;
         font-size: 22px;
         line-height: 34px;
         margin-bottom: 0;
+        text-align: left;
       }
       .presenter-block .weather {
         font-style: italic;
@@ -185,6 +187,7 @@ body {
         font-size: 22px;
         line-height: 34px;
         margin-top: 0;
+        text-align: left;
       }
 
       .video-section{
@@ -224,7 +227,7 @@ body {
         display: flex;
         flex-direction: column;
         max-width: 15%;
-        justify-content: center;
+        text-align: left;
         padding-top: 0px;
       }
       
@@ -237,6 +240,9 @@ body {
       }
       .video p{
         margin-top: -10px;
+        text-align: left;
+        opacity: 40%;
+
       }
 
       .author-picture{
@@ -246,6 +252,7 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-top: 15px;
       }
       .video-author h3{
         font-size: medium;
@@ -307,8 +314,9 @@ body {
         align-items: center;
         text-align: center;
       }
-      .membership-card h2 {
+      .membership-card h2, p {
         margin-bottom: 0.1rem;
+        text-align: center;
       }
 
       .faq-section{
@@ -345,6 +353,7 @@ body {
         font-weight: 400;
         opacity: 30%;
         line-height: 30px;
+        text-align: left;
       }
 
       footer {
