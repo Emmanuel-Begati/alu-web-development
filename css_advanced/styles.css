@@ -202,6 +202,13 @@ body {
         padding-bottom: 3rem;
 
       }  
+
+      .play{
+        position: relative;
+        top: -23%;
+        left: 33%;
+      }
+
       .video-section h1{
         text-align: center;
         font-size: 40px;
@@ -224,9 +231,18 @@ body {
         flex-direction: column;
         max-width: 15%;
         justify-content: center;
+        padding-top: 0px;
+      }
+
+
+      .vid-title{
+        
       }
 
       .video h2, p{
+        /* margin: auto; */
+        margin-top: 0px;
+        text-align: center;
       }
 
       .author-picture{
