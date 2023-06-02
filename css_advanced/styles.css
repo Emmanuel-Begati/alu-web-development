@@ -2,6 +2,14 @@ body {
     font-family: "Source Sans Pro";
     font-style: normal;
   }
+
+  main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: -8px;
+  } 
+
   header {
     display: flex;
     flex-direction: row;
@@ -22,15 +30,15 @@ body {
   }
   
   header .navbar {
-    flex: 4;
-    font-weight: 700;
-    font-size: 12px;
+    flex: auto;
+    font-weight:900;
+    font-size: 14px;
     line-height: 15px;
     text-transform: uppercase;
     z-index: 1;
     display: flex;
     justify-content: space-evenly;
-  
+
   }
   header .navbar a {
     margin-left: -30%;
@@ -41,8 +49,6 @@ body {
   }
   .header-section {
     position: relative;
-    /* left: 20%;
-    right: 20%; */
     display: flex;
     flex: auto;
     flex-direction: column;
@@ -50,8 +56,8 @@ body {
     background-blend-mode: color;
     background: rgba(0, 0, 0, 1);
     background: radial-gradient(
-      85.9% 85.9% at 50% 14.1%,
-      rgba(41, 48, 61, 0.0001) 0%,
+      85.9% 85.9% at 40% 14.1%,
+      rgba(68, 76, 90, 0) 0%,
       #071629 100%
     );
     color: white;
@@ -64,21 +70,18 @@ body {
     padding-top: 5rem;
   }
   .schooled-title {
-    height: 151px;
     font-weight: 700;
     font-size: 120px;
-    line-height: 151px;
     text-align: center;
     color: #ffffff;
     position: relative;
   }
   
   .schooled-text {
-    height: 20px;
     position: relative;
     margin-top: -7%;
     text-align: center;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
@@ -91,7 +94,6 @@ body {
     background: #c271ff;
     border-radius: 25px;
     border: none;
-    padding: 0.7rem;
     color: white;
     font-weight: 500;
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
@@ -125,7 +127,6 @@ body {
       }
       .pros-card {
         width: 19%;
-        /* padding: 1.5% 4% 1.5% 4%;*/
         margin-bottom: 7rem;
         display: flex;
         flex-direction: column;
@@ -148,14 +149,8 @@ body {
         text-align: center;
         font-size: 16px;
       }
-      main {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        margin: -8px;
-      }
+     
       .presenter-section {
-        /* position: absolute; */
         background-color: #c271ff;
         padding: 6%;
       }
@@ -233,16 +228,16 @@ body {
         justify-content: center;
         padding-top: 0px;
       }
-
-
-      .vid-title{
+      
+      .video h2, p{
+        text-align: left;
         
       }
-
-      .video h2, p{
-        /* margin: auto; */
-        margin-top: 0px;
-        text-align: center;
+      .video h2{
+        margin-top: -40px;
+      }
+      .video p{
+        margin-top: -10px;
       }
 
       .author-picture{
@@ -250,6 +245,7 @@ body {
       }
       .video-author{
         display: flex;
+        flex-direction: row;
         align-items: center;
       }
       .video-author h3{
@@ -274,10 +270,9 @@ body {
         font-weight: 600;
         font-size: 14px;
          line-height: 27px;
-        /* identical to box height, or 193% */
          text-align: right;
         color: #c271ff;
-        margin: auto;
+       padding-top: 5%;
 
       }
       .membership-section {
