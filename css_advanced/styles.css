@@ -220,10 +220,10 @@ body {
 
       .video{
         padding: 3rem;
-        /* display: flex;
-        flex-direction: column; */
+        display: flex;
+        flex-direction: column;
         max-width: 15%;
-        align-content: center;
+        justify-content: center;
       }
 
       .video h2, p{
@@ -234,8 +234,7 @@ body {
       }
       .video-author{
         display: flex;
-        flex-direction: row;
-        flex: auto;
+        align-items: center;
       }
       .video-author h3{
         font-size: medium;
@@ -245,18 +244,24 @@ body {
       }
 
       .video-author img{
-        height: 10%;
-        width: 10%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
       }
       .rating-duration{
          display: flex;
-        flex-direction: row;
-        flex: auto;
+         justify-content: space-between;
+         align-items: center;
       }
 
       .duration{
+        font-weight: 600;
+        font-size: 14px;
+         line-height: 27px;
+        /* identical to box height, or 193% */
+         text-align: right;
+        color: #c271ff;
         margin: auto;
-        align-content: end
 
       }
       .membership-section {
@@ -302,6 +307,14 @@ body {
         padding-left: 10%;
         padding-right: 10%;
       }
+
+      #faq-head{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 20;
+        justify-content: space-evenly;
+      }
+
       .faq-item {
         display: flex;
         flex: 50%;
